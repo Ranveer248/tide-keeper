@@ -6,8 +6,8 @@
  * - Everything else (scripts, styles, icons) is cache-first. Vite gives built files
  *   hashed names, so a new version always arrives under new file names.
  */
-const CACHE = 'tidekeeper-v1';
-const CORE = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png'];
+const CACHE = 'tidekeeper-v2';
+const CORE = ['./', './index.html'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
