@@ -7,6 +7,7 @@
  *   hashed names, so a new version always arrives under new file names.
  */
 const CACHE = 'tidekeeper-v2';
+// The whole game is one page (scripts, styles and icons are inlined into index.html).
 const CORE = ['./', './index.html'];
 
 self.addEventListener('install', (event) => {
